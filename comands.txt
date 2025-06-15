@@ -1,0 +1,14 @@
+# golang inicialization
+go mod init 
+
+# install packages
+go get "your package"
+
+# update go.mod
+go mod tidy
+
+# executing tests
+go test ./test/... -v
+
+# generate swagger documentation
+swag init
